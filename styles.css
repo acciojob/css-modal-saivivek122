@@ -1,10 +1,11 @@
 /*  your css code here. If applicable */
 .modal{
 	background-color:white;
-	width:500px;
-	height:auto;
+	width:100vw;
+	height:100vh;
 	border:2px solid white;
 	margin:30px auto;
+	display:none;
 
 }
 .modal-content{
@@ -18,9 +19,7 @@
 	margin:5px;
 	
 }
-.modal{
-	display:none;
-}
+
 h2{
 	color:white;
 	padding:8px;
