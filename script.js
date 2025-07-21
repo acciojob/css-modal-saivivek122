@@ -8,10 +8,3 @@ function closeModal(){
 	document.getElementById("modal").style.display="none";
     document.body.style.background="white"
 }
-window.addEventListener("click", function (e) {
-  const modal = document.getElementById("modal");
-  const content = document.querySelector(".modal-content");
-  if (e.target === modal) {
-    closeModal();
-  }
-});
