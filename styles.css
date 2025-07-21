@@ -18,6 +18,9 @@
 	margin:5px;
 	
 }
+#modal{
+	display:none;
+}
 h2{
 	color:white;
 	padding:8px;
