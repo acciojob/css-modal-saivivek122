@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+.modal{
+	background-color:white;
+	width:500px;
+	height:auto;
+	border:2px solid white;
+	margin:30px auto;
+
+}
+.modal-content{
+	position:relative;
+	height:auto;
+	padding:60px;
+}
+
+.modal-header{
+	background-color:green;
+	margin:5px;
+	
+}
+h2{
+	color:white;
+	padding:8px;
+}
+.modal-body{
+	margin:8px;
+}
+.close-modal{
+	display:inline;
+	background-color:green;
+	color:white;
+	padding:10px;
+	/* margin-left:80%; */
+	border:2px solid green;
+	border-radius:2px;
+	position:absolute;
+	right:10px;
+}
